@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    background-color: black;
+    color: #ddd;
+  }
+  
+.header {
+    background-color:#9bc848;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .logo{
+    width: 200px;
+    height: 0px;
+    margin-left: 36%;
+    margin-right: 25%;
+    margin-bottom: 26%;
+  }
+
+.topnav {
+    overflow: hidden;
+    background-color: #1e1e1e;
+    border-bottom: solid #007A33 1px;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    justify-content: center;
+    margin-left: 18%;
+    z-index: 1;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    background-color:#9bc848;
+    color: rgb(255, 255, 255);
+  }
+
+  h3{
+    color: #ddd; 
+    padding: 15px; 
+    margin-left: 20px; 
+    margin-right: 20px;
+    text-align: justify; 
+    margin-bottom: 1.5em; 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 1.1em; 
+    line-height: 1.6; 
+    background-color: #302f2f; 
+    border-left: 7px solid #9bc848; 
+    border-radius: 6px; 
+  }
+  h2{
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 1.1em; 
+    color:#007A33;
+  }
+
+  .consoles{
+    background-image: url(../images/consoles.jfif);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover; 
+    background-position: center; 
+    width: 100%;
+    height: 92vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; 
+    text-align: center;
+    border-top: solid #9bc848 2px;
+    border-bottom: solid #9bc848 2px;
+  }
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+  }
+  
+  
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+.column{
+    height: 550px;
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: #ddd; 
+    padding: 10px; 
+    text-align: justify; 
+    margin-bottom: 1.5em; 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 1em; 
+    line-height: 1.6; 
+    background-color: #302f2f; 
+    border-left: 7px solid #9bc848; 
+    border-radius: 6px; 
+}
+
+.gamepass{
+    background-image: url(../images/gamepass.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover; 
+    background-position: center; 
+    width: 100%;
+    height: 80vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; 
+    text-align: center;
+    border-top: solid #9bc848 2px;
+    border-bottom: solid #9bc848 2px;
+}
+
+.column_dois{
+    height: 350px;
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: #ddd; 
+    padding: 10px; 
+    text-align: justify; 
+    margin-bottom: 1.5em; 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 1em; 
+    line-height: 1.6; 
+    background-color: #302f2f; 
+    border-left: 7px solid #9bc848; 
+    border-radius: 6px; 
+}
+
+.footer {
+    background-color: black; ; 
+    border-top: 2px solid #9bc848; 
+    padding: 10px;
+    text-align: center;
+  }
+
